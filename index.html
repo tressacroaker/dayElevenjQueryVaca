@@ -5,83 +5,112 @@
     <title>jQuery Practice</title>
     <link rel="stylesheet" href="styles.css" >
     <script src="https://use.fontawesome.com/b4ccb25300.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Chathura|Cutive+Mono|Josefin+Sans|Space+Mono" rel="stylesheet">
   </head>
   <body>
 
-    <div id="vacations">
-      <div class="headtext">
-        <h1>Vacation Destinations</h1>
-        <button class="scam" type="button">CLICK HERE</button>
-        <i class="fa fa-bars fa-2x menu"></i>
+<header>
+  <i class="fa fa-bars fa-2x menu"></i>
+  <h1> Wander Press. </h1>
+  <h3><i class="fa fa-coffee fa-2x"></i></h3>
+  <p> where fresh thoughts are brewed daily. </p>
 
-        <h2><i class="fa fa-arrows-v"></i> Useful Links</h2>
-        <a href="#">Vacation Planning</a>
-        <a href="#">Snorkeling</a>
-        <a href="#">Excursions</a>
-        <a href="#">Deep Sea Fishing</a>
-        <a href="#">Cave Tours</a>
+  </header>
 
-      <!-- <ul>
-        <li class="cancun">
-          <h2>Cancun</h2>
-          <span class="details">$1,899 for 7 nights</span>
-          <button class="book">Book Now</button>
-        </li>
-        <li class="hawaii">
-          <h2>Hawaii</h2>
-          <span class="details">$2,299 for 7 nights</span>
-          <button class="book">Book Now</button>
-        </li>
-        <li class="nyc">
-          <h2>New York City</h2>
-          <span class="details">$3,799 for 7 nights</span>
-          <button class="book">Book Now</button>
-        </li>
-      </ul>
-    </div> -->
+  <div class="menudropdown">
+    <ul>
+      <li> Our Story</li>
+      <li> Our Team</li>
+      <li> Our Shop</li>
+      <li> Our Events</li>
+    </ul>
+  </div>
 
-    <div class="linkbox">
-            <i class="fa fa-arrow-left fa-3x"></i>
-            <div class="box">
-              <h2>Cancun</h2>
-              <br>
-              <img id="cancun" src="images/cancun.jpg" />
-              <br>
-              <span class="details">$1,899 for 7 nights</span>
-              <br>
-              <button class="book">Book Now</button>
-            </div>
-            <h3> Cacun Vacation <br> Starting at $399 </h3>
 
-            <div class="box">
-              <h2>Hawaii</h2>
-              <img id="hawaii" src="images/hawaii-art.jpg" />
-              <span class="details">$2,299 for 7 nights</span>
-              <button class="book">Book Now</button>
-            </div>
-            <div class="box">
-              <h2>New York City</h2>
-              <img id="nyc" src="images/nyc.jpeg" />
-              <span class="details">$3,799 for 7 nights</span>
-              <button class="book">Book Now</button>
-            </div>
-            <i class="fa fa-arrow-right fa-3x"></i>
-          </div>
+<div id="headtext">
+
+  <div class="box1">
+    <h3 id="plusdrink"><i id="plus" class="fa fa-plus"></i> Drink. </h3>
+  </div>
+
+  <div class="drinkdropdown">
+    <ul>
+      <li> Our Menu</li>
+      <li> Our Recipes</li>
+      <li> Order Ahead</li>
+    </ul>
+  </div>
+
+  <div class="box1">
+    <h3 id="plustype"><i id="plus" class="fa fa-plus"></i> Type. </h3>
+  </div>
+
+  <div class="typedropdown">
+    <ul>
+      <li> Community Forum</li>
+      <li> Local Events</li>
+      <li> Book Clubs</li>
+    </ul>
+  </div>
+
+  <div class="box1">
+    <h3 id="pluslisten"><i id="plus" class="fa fa-plus"></i> Listen. </h3>
+  </div>
+
+  <div class="listendropdown">
+    <ul>
+      <li> Currently Playing</li>
+      <li> Daily Song Selection</li>
+      <li> Submit Playlists</li>
+    </ul>
+  </div>
+</div>
+
+
+
+    <div id="container">
+
+        <div class="box">
+          <!-- <h3 id="plusdrink"><i id="plus" class="fa fa-plus"></i> Drink. </h3> -->
+          <img id="coffee" src="coffee.jpg" />
         </div>
 
-        <div class="menudropdown">
+        <div class="box">
+          <!-- <h3 id="plustype"><i id="plus" class="fa fa-plus"></i> Type. </h3> -->
+          <img id="typewriter" src="typewriter.jpg" />
+        </div>
+
+      <div class="box">
+        <!-- <h3 id="pluslisten"><i id="plus" class="fa fa-plus"></i> Listen. </h3> -->
+        <img id="music" src="headphones.jpg" />
+      </div>
+
+        <!-- <div class="drinkdropdown">
           <ul>
-            <li> About</li>
-            <li> Home</li>
-            <li> Destinations</li>
-            <li> Testimonials</li>
-            <li> Contact</li>
+            <li> Our Menu</li>
+            <li> Our Recipes</li>
+            <li> Order Ahead</li>
           </ul>
-        </div>
+        </div> -->
 
+        <!-- <div class="typedropdown">
+          <ul>
+            <li> Community Forum</li>
+            <li> Local Events</li>
+            <li> Book Clubs</li>
+          </ul>
+        </div> -->
 
+        <!-- <div class="listendropdown">
+          <ul>
+            <li> Currently Playing</li>
+            <li> Daily Song Selection</li>
+            <li> Submit Playlists</li>
+          </ul>
+        </div> -->
+      </div>
 
-    <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
     <script src="app.js"></script>
   </body>
 </html>

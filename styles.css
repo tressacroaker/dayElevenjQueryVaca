@@ -3,25 +3,43 @@ body {
 }
 
 h1 {
-  margin: 0;
-  padding: 40px;
+  text-align: center;
 }
 
-.vacations {
-    height: 100vh;
-    width: 100vw;
-    background-image: url("https://thumbs.dreamstime.com/z/travel-background-seamless-vector-pattern-planes-globe-bag-suitcases-black-white-texture-57749474.jpg");
-    background-size: cover;
-  }
+h3 {
+  text-align: center;
+}
 
-  .headtext {
-    height: 20vh;
-    width: 100vw;
-    text-align: center;
-  }
+p {
+  display: none;
+  text-align: center;
+}
 
-  .linkbox {
-    height: 80vh;
+.menu {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+.menudropdown {
+  position: fixed;
+  display: none;
+  top: 70px;
+  right: 30px;
+  margin-top: 10px;
+}
+
+.menudropdown li{
+  border: 0.5px solid grey;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Josefin Sans";
+  list-style: none;
+  background-color: none;
+  color: black;
+}
+
+#headtext {
+    height: 10vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -29,4 +47,76 @@ h1 {
     align-items: center;
     align-content: space-between;
     justify-content: center;
-  }
+}
+
+
+.box1 {
+  margin: 100px;
+}
+
+#container {
+  /*margin-top: -100px;*/
+  /*height: 100vh;
+  width: 100vw;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.box {
+  margin: 10px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+
+}
+
+.drinkdropdown {
+  position:absolute;
+  display: none;
+}
+
+.typedropdown {
+  position: absolute;
+  display: none;
+}
+
+.listendropdown {
+  position:absolute;
+  display: none;
+}
+
+.drinkdropdown li {
+  border: 0.5px solid grey;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Josefin Sans";
+  list-style: none;
+  background-color: none;
+  color: black;
+}
+
+.typedropdown li {
+   border: 0.5px solid grey;
+   padding: 10px;
+   font-size: 18px;
+   font-family: "Josefin Sans";
+   list-style: none;
+   background-color: none;
+   color: black;
+ }
+
+ .listendropdown li {
+   border: 0.5px solid grey;
+   padding: 10px;
+   font-size: 18px;
+   font-family: "Josefin Sans";
+   list-style: none;
+   background-color: none;
+   color: black;
+ }
