@@ -15,6 +15,10 @@ p {
   text-align: center;
 }
 
+ul {
+  padding: 0;
+}
+
 .menu {
   position: fixed;
   top: 60px;
@@ -35,20 +39,9 @@ p {
   font-family: "Josefin Sans";
   list-style: none;
   background-color: none;
+  opacity: .6;
   color: black;
 }
-
-#headtext {
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    align-content: space-between;
-    justify-content: center;
-}
-
 
 .box1 {
   margin: 100px;
@@ -73,22 +66,29 @@ p {
 img {
   height: 300px;
   width: 300px;
-
 }
 
 .drinkdropdown {
-  position:absolute;
+  /*position:absolute;
+  left:100px;
+  top: 300px;*/
   display: none;
+  width: 300px;
 }
 
 .typedropdown {
-  position: absolute;
+  /*position: absolute;
+  top: 300px;*/
   display: none;
+  width: 300px;
 }
 
 .listendropdown {
-  position:absolute;
+  /*position:absolute;
+  right:100px;
+  top: 300px;*/
   display: none;
+  width: 300px;
 }
 
 .drinkdropdown li {
@@ -98,7 +98,10 @@ img {
   font-family: "Josefin Sans";
   list-style: none;
   background-color: none;
+  text-align: center;
+  opacity: .6;
   color: black;
+  width: 279px;
 }
 
 .typedropdown li {
@@ -108,6 +111,8 @@ img {
    font-family: "Josefin Sans";
    list-style: none;
    background-color: none;
+   text-align: center;
+   opacity: .6;
    color: black;
  }
 
@@ -118,5 +123,7 @@ img {
    font-family: "Josefin Sans";
    list-style: none;
    background-color: none;
+   text-align: center;
+   opacity: .6;
    color: black;
  }

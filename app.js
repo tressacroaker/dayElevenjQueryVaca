@@ -1,44 +1,53 @@
-$(document).ready(function(){
- $("h1").css({"font-family": "Cutive Mono", "font-size": "60px"});
- $("p").css({"font-family": "Josefin Sans", "font-size": "20px"});
+$(document).ready(function() {
+    $("h1").css({
+        "font-family": "Cutive Mono",
+        "font-size": "60px",
+        "opacity": "0.8"
+    });
 
+    $("p").css({
+        "font-family": "Josefin Sans",
+        "font-size": "20px",
+        "opacity": "0.6"
+    });
 
-
- $("h1").hover(function(){
-   $("p").fadeIn();
-  });
-
-
-  $(".menu").on("click", function(){
-      $(".menudropdown").toggle();
+    $("#coffeeIcon").css({
+        "opacity": "0.8",
     });
 
 
-  $("#plusdrink").on("click", function(){
-      $(".drinkdropdown").slideToggle();
+    $("h1").hover(function() {
+        $("p").fadeIn();
     });
 
-  $("#plustype").on("click", function(){
-      $(".typedropdown").slideToggle();
+
+    $(".menu").on("click", function() {
+        $(".menudropdown").toggle();
     });
 
-  $("#pluslisten").on("click", function(){
-      $(".listendropdown").slideToggle();
+
+    $("#plusdrink").on("click", function() {
+        $(".drinkdropdown").slideToggle();
+    });
+
+    $("#plustype").on("click", function() {
+        $(".typedropdown").slideToggle();
+    });
+
+    $("#pluslisten").on("click", function() {
+        $(".listendropdown").slideToggle();
     });
 
 });
 
-  $("#coffee").hover(function(){
-    $("#coffee").fadeTo("slow", 0.4, function(){
-      });
-    });
+$("#coffee").hover(function() {
+    $("#coffee").fadeTo("slow", 0.4, function() {});
+});
 
-  $("#typewriter").hover(function(){
-    $("#typewriter").fadeTo("slow", 0.4, function(){
-      });
-    });
+$("#typewriter").hover(function() {
+    $("#typewriter").fadeTo("slow", 0.4, function() {});
+});
 
-  $("#music").hover(function(){
-    $("#music").fadeTo("slow", 0.4, function(){
-      });
-    });
+$("#music").hover(function() {
+    $("#music").fadeTo("slow", 0.4, function() {});
+});

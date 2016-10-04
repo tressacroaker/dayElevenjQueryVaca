@@ -1,116 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>jQuery Practice</title>
-    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles.css">
     <script src="https://use.fontawesome.com/b4ccb25300.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Chathura|Cutive+Mono|Josefin+Sans|Space+Mono" rel="stylesheet">
-  </head>
-  <body>
+    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Chathura|Cutive+Mono|Josefin+Sans|Space+Mono" rel="stylesheet">
+</head>
 
-<header>
-  <i class="fa fa-bars fa-2x menu"></i>
-  <h1> Wander Press. </h1>
-  <h3><i class="fa fa-coffee fa-2x"></i></h3>
-  <p> where fresh thoughts are brewed daily. </p>
+<body>
 
-  </header>
+    <header>
+        <i class="fa fa-bars fa-2x menu"></i>
+        <h1> Wander Press. </h1>
+        <h3><i id="coffeeIcon" class="fa fa-coffee fa-2x faa-shake animated faa-slow"></i></h3>
+        <p> where fresh thoughts are brewed daily. </p>
+    </header>
 
-  <div class="menudropdown">
-    <ul>
-      <li> Our Story</li>
-      <li> Our Team</li>
-      <li> Our Shop</li>
-      <li> Our Events</li>
-    </ul>
-  </div>
-
-
-<div id="headtext">
-
-  <div class="box1">
-    <h3 id="plusdrink"><i id="plus" class="fa fa-plus"></i> Drink. </h3>
-  </div>
-
-  <div class="drinkdropdown">
-    <ul>
-      <li> Our Menu</li>
-      <li> Our Recipes</li>
-      <li> Order Ahead</li>
-    </ul>
-  </div>
-
-  <div class="box1">
-    <h3 id="plustype"><i id="plus" class="fa fa-plus"></i> Type. </h3>
-  </div>
-
-  <div class="typedropdown">
-    <ul>
-      <li> Community Forum</li>
-      <li> Local Events</li>
-      <li> Book Clubs</li>
-    </ul>
-  </div>
-
-  <div class="box1">
-    <h3 id="pluslisten"><i id="plus" class="fa fa-plus"></i> Listen. </h3>
-  </div>
-
-  <div class="listendropdown">
-    <ul>
-      <li> Currently Playing</li>
-      <li> Daily Song Selection</li>
-      <li> Submit Playlists</li>
-    </ul>
-  </div>
-</div>
-
-
+    <div class="menudropdown">
+        <ul>
+            <li> Our Story</li>
+            <li> Our Team</li>
+            <li> Our Shop</li>
+            <li> Our Events</li>
+        </ul>
+    </div>
 
     <div id="container">
 
         <div class="box">
-          <!-- <h3 id="plusdrink"><i id="plus" class="fa fa-plus"></i> Drink. </h3> -->
-          <img id="coffee" src="coffee.jpg" />
+          <h3 id="plusdrink"><i id="plus" class="fa fa-plus"></i> Drink. </h3>
+            <div class="drinkdropdown">
+                <ul>
+                    <li> Our Menu</li>
+                    <li> Our Recipes</li>
+                    <li> Order Ahead</li>
+                </ul>
+            </div>
+            <img id="coffee" src="coffee.jpg" />
         </div>
 
         <div class="box">
-          <!-- <h3 id="plustype"><i id="plus" class="fa fa-plus"></i> Type. </h3> -->
-          <img id="typewriter" src="typewriter.jpg" />
+          <h3 id="plustype"><i id="plus" class="fa fa-plus"></i> Type. </h3>
+            <div class="typedropdown">
+                <ul>
+                    <li> Community Forum</li>
+                    <li> Local Events</li>
+                    <li> Book Clubs</li>
+                </ul>
+            </div>
+            <img id="typewriter" src="typewriter.jpg" />
         </div>
 
-      <div class="box">
-        <!-- <h3 id="pluslisten"><i id="plus" class="fa fa-plus"></i> Listen. </h3> -->
-        <img id="music" src="headphones.jpg" />
-      </div>
+        <div class="box">
+          <h3 id="pluslisten"><i id="plus" class="fa fa-plus"></i> Listen. </h3>
+            <div class="listendropdown">
+                <ul>
+                    <li> Currently Playing</li>
+                    <li> Daily Song Selection</li>
+                    <li> Submit Playlists</li>
+                </ul>
+            </div>
+            <img id="music" src="headphones.jpg" />
+        </div>
 
-        <!-- <div class="drinkdropdown">
-          <ul>
-            <li> Our Menu</li>
-            <li> Our Recipes</li>
-            <li> Order Ahead</li>
-          </ul>
-        </div> -->
+    </div>
 
-        <!-- <div class="typedropdown">
-          <ul>
-            <li> Community Forum</li>
-            <li> Local Events</li>
-            <li> Book Clubs</li>
-          </ul>
-        </div> -->
-
-        <!-- <div class="listendropdown">
-          <ul>
-            <li> Currently Playing</li>
-            <li> Daily Song Selection</li>
-            <li> Submit Playlists</li>
-          </ul>
-        </div> -->
-      </div>
-
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
